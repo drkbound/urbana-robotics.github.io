@@ -46,10 +46,10 @@ main {
     font-family:Joy Multiplication;
     color:white;
     text-align:center;
-    font-size:4vw;
+    font-size:calc(10px + 2vmax);
     margin:0px;
-    padding-top:4vw;
-    padding-bottom:4vw;
+    padding-top:4vmax;
+    padding-bottom:4vmax;
 }
 
 .center {

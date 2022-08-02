@@ -10,25 +10,28 @@
     text-align:center;
     font-size:0px;
     flex-basis:25%;
+    flex-basis: min-content;
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 .member-avatar {
-    height:18vw;
-    width:18vw;
+    height:18vmax;
+    width:18vmax;
     object-fit:cover;
 }
 
 .member-info {
     padding-top:0.5vw;
     font-family:Joy Multiplication;
-    font-size:1.5vw;
+    font-size:max(12px,1.5vmax);
     color:white;
     margin:0.5vw;
 }
 
 .member-position {
     font-family:Joy Multiplication;
-    font-size:1vw;
+    font-size:max(10px,1vmax);
     color:white;
     margin:0px;
 }

@@ -1,0 +1,10 @@
+<a class="newsletter-link" href="" target="_blank">
+    <div class="newsletter">
+        <div class="newsletter-label">
+            <h1 class="newsletter-title"></h1>
+            <p class="newsletter-date"><sup></sup></p>
+            <p class="newsletter-description"></p>
+        </div>
+        <img class="newsletter-cover-image" src="">
+    </div>
+</a>

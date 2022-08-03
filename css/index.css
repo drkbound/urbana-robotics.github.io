@@ -1,5 +1,5 @@
 #welcome {
-    font-family:Joy Multiplication;
+    font-family: Bebas Neue;
     font-size:min(100px,10vmax);
     color:var(--whiteurbana);
     margin:0px;
@@ -7,7 +7,7 @@
 
 #introduction {
     display:flex;
-    flex-flow; row wrap;
+    flex-flow: row wrap;
     justify-content: center;
     padding-top:4vw;
     margin-left:10vw;
@@ -33,13 +33,13 @@
 }
 
 #introduction-title {
-    font-family:Joy Multiplication;
+    font-family: Bebas Neue;
     font-size:3vmax;
     color:var(--whiteurbana);
 }
 
 #introduction-text {
-    font-family:Lato;
+    font-family: Dosis;
     font-size:max(15px,1.5vmax);
     color:var(--whiteurbana);
     margin:0px;

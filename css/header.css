@@ -36,7 +36,7 @@ header {
 }
 
 #team-name {
-    font-family:Joy Multiplication;
+    font-family: Norwester;
     font-size:3vw;
     color:var(--whiteurbana);
     margin-top:20px;
@@ -45,7 +45,7 @@ header {
 }
 
 #team-number {
-    font-family:Joy Multiplication;
+    font-family: Norwester;
     font-size:2vw;
     color:var(--whiteurbana);
     margin:0px;
@@ -62,17 +62,16 @@ header {
 }
 
 .social-link {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .social-logo {
-    width:1.5vw;
-    transition:width 0.2s ease-in-out;
+    width: 1.5vw;
+    transition: 0.2s;
 }
 
 .social-logo:hover {
-    transform:scale(1.2);
-    transition:transform 0.2s ease-in-out;
+    transform: scale(1.2);
 }
 
 #navbar {
@@ -89,12 +88,12 @@ header {
 }
 
 .navbar-item {
-    font-family:Joy Multiplication;
+    font-family: Norwester;
     font-size:30px;
 }
 
 .navbar-link {
-    font-family:Joy Multiplication;
+    font-family: Norwester;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -102,10 +101,15 @@ header {
     text-decoration:none; 
     color:var(--navbartext);
     padding:15px;
+    transition: 0.2s;
+    border-radius: 2px;
 }
 
-.navbar-link:hover {
+.main-link:hover {
     background-color:var(--navyhover);
+    transform: scale(1.2);
+    box-shadow: 0.25vw 0.25vw rgb(192,192,192);
+    transform: translateY(-10px);
 }
 
 #dropdown {
@@ -129,15 +133,16 @@ header {
     margin:0px;
 }
 
-#dropdown-text:hover {
+.back-link:hover {
     background-color:var(--navyhover);
 }
 
 #dropdown:hover #dropdown-content {
-  display: block;
+    display: block;
 }
 
-#active-page {
+.active {
     background-color:var(--navyactive);
-    color:var(--navbartext);
+    color: var(--navbartext);
+    border-radius: 5px;
 }

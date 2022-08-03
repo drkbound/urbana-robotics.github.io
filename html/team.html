@@ -1,65 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../css/styles.css">
-        <link rel="stylesheet" href="../css/header.css">
-        <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/team.css">
-        <link rel="icon" href="../assets/global/favicon.png">
 
         <title>CryptoHawks</title>
     </head>
     <body>
-        <header>
-            <a id="home-link" href="../index.html">
-                <div id="team-group">
-                    <img id="team-logo" src="../assets/global/logo.png">
-                    <div id="team-title">
-                        <h1 id="team-name"><b>CryptoHawks</b></h1>
-                        <p id="team-number">FRC Team 8726</p>
-                    </div>
-                </div>
-            </a>
-            <div id="social">
-                <a class="social-link" href="mailto:urbanahsrobotics@gmail.com" target="_blank"><img class="social-logo" src="../assets/socials/email.png"></a>
-                <a class="social-link" href="https://www.instagram.com/uhsrobotics" target="_blank"><img class="social-logo" src="../assets/socials/instagram.png"></a>
-                <a class="social-link" href="https://www.youtube.com/channel/UCzbWX9d-P6BXmRLVnBRsI0w" target="_blank"><img class="social-logo" src="../assets/socials/youtube.png"></a>
-            </div>
-            <div id="navbar">
-                <ul id="navbar-container">
-                    <li class="navbar-item"><a class="navbar-link" href="../index.html"><b>Home</b></a></li>
-                    <li class="navbar-item"><a id="active-page" class="navbar-link" href="team.html"><b>Team</b></a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="robots.html"><b>Robots</b></a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="summer.html"><b>Summer Camp</b></a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="sponsors.html"><b>Sponsors</b></a></li>
-                    <li class="navbar-item">
-                        <div id="dropdown">
-                            <p id="dropdown-text"><b>More</b></p>
-                            <div id="dropdown-content">
-                                <a class="navbar-link" href="contact.html"><b>Contact</b></a>
-                                <a class="navbar-link" href="media.html"><b>Media</b></a>
-                                <a class="navbar-link" href="newsletters.html"><b>Newsletter</b></a>
-                                <!-- <a class="navbar-link" href="events.html"><b>Events</b></a> -->
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </header>
+        <div id="header"></div>
         <main>
             <h1 id="title">Meet The Team</h1>
-            <div class="member-group">
+            <div id="sub-teams">
+                <a href="mentors.html" class="teams">
+                    <div id="mentors">
+                        <div class="icons">
+                            <img src="../assets/team/example-icon.png" width="100px" height="100px" alt="example"></img>
+                            <h1>Mentors</h1>
+                        </div>
+                        <div class="description-div">
+                            <h2 class="description">The supervising advisors of team 8726, who help out with equipment or provide suggestions to benefit the team. </h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="control.html" class="teams">
+                    <div id="control-div" class="sub-team-div">
+                        <div class="icons">
+                            <img src="../assets/team/example-icon.png" width="100px" height="100px" alt="example"></img>
+                            <h1>Control</h1>
+                        </div>
+                        <div class="description-div">
+                            <h2 class="description">Control team (or Programing) is the last subteam of our technical branch. Those in this team are responsible for programming the code that drives our robot, as well as anything else that the robot is designed to do. </h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="mechanical.html" class="teams">
+                    <div id="mechanical-div" class="sub-team-div">
+                        <div class="icons">
+                            <img src="../assets/team/example-icon.png" width="100px" height="100px" alt="example"></img>
+                            <h1>Mechanical</h1>
+                        </div>
+                        <div class="description-div">
+                            <h2 class="description">Mechanical team is one of the subteams in our technical branch. These members are incharge of building the actual robot, and making sure all of it's parts are functioning. </h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="design.html" class="teams">
+                    <div id="design-div" class="sub-team-div">
+                        <div class="icons">
+                            <img src="../assets/team/example-icon.png" width="100px" height="100px" alt="example"></img>
+                            <h1>Design</h1>
+                        </div>
+                        <div class="description-div">
+                            <h2 class="description">Design team is one of the subteams in our technical branch. Members use software like CAD to create 3D renderings of how the robot is supposed to work and function, ensuring a swift, efficient, and easy build process for the other technical subteams. </h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="business.html" class="teams">
+                    <div id="business-div" class="sub-team-div">
+                        <div class="icons">
+                            <img src="../assets/team/example-icon.png" width="100px" height="100px" alt="example"></img>
+                            <h1>Business</h1>
+                        </div>
+                        <div class="description-div">
+                            <h2 class="description">Business Team is one of our subteams in the non-technical branch. Business members maintain team funds, work on gaining sponsorships, and handle team finances. </h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="marketing.html" class="teams">
+                    <div id="marketting-div" class="sub-team-div">
+                        <div class="icons">
+                            <img src="../assets/team/example-icon.png" width="100px" height="100px" alt="example"></img>
+                            <h1>Marketing</h1>
+                        </div>
+                        <div class="description-div">
+                            <h2 class="description">Marketing Team is another one of our non-technical subteams. Marketing team members work on team visuals, team merchandise, and team branding. </h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="outreach.html" class="teams">
+                    <div id="outrech-div" class="sub-team-div">
+                        <div class="icons">
+                            <img src="../assets/team/example-icon.png" width="100px" height="100px" alt="example"></img>
+                            <h1>Outreach</h1>
+                        </div>
+                        <div class="description-div">
+                            <h2 class="description">Outreach is our final subteam in the non-technical branch. Members in outreach work with members of the community to help promote STEM and the principles of FIRST Robotics to those interested. Outreach also works to provide assistance in the form of volunteering to small businesses, keeping the community surrounding Urbana High School, and those in it, prosperous. </h2>
+                        </div>
+                    </div>
+                </a>
             </div>
+
         </main>
-        <footer>
-            <p id="copyright"><b>&copy; 2022 | Designed by Khang Le</b></p>
-            <a href="https://www.firstinspires.org" target="_blank"><img id="frc-logo" src="../assets/global/frc.png"></a>
-        </footer>
+        <div id="footer"></div>
+
         <script src="../js/jquery-3.6.0.min.js"></script>
         <script src="../js/scripts.js"></script>
-        <!-- <script src="../js/header.js"></script> -->
-        <script src="../js/headerscroll.js"></script>
-        <script src="../js/team.js"></script>
+        <script>
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+        </script> 
     </body>
 </html>

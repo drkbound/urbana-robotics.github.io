@@ -4,17 +4,34 @@ footer {
     background-color:black;
     color:var(--navbartext);
     bottom:0px;
-    width:100%;
     border-top:3px white solid;
 }
 
 #copyright {
     font-size:1vw;
-    margin:0px;
+    margin:0;
     padding:0.8vw;
 }
 
 #frc-logo {
     width:2.5vw;
     padding-bottom:0.8vw;
+}
+
+#address {
+    font-size:1vw;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#address:hover {
+    transform: scale(1.05);
+}
+
+#address-div {
+    margin: 1.6vw 0.8vw 0.8vw;
 }

@@ -1,17 +1,18 @@
+let slideIndex = 1;
+
 fetch('../assets/team/members.json')
 .then((response) => response.json())
 .then(json => {
     let members = json['members'];
     for (let member of members) {
-        if (member['position'].includes("Control")) {
-            $(".content").append("<img class='slide' src='../assets/team/example-icon.png'>");
-            console.log(member['name']);
+        let teamName = $("#title").text().substring(0, $("#title").text().indexOf(" "));
+        if (member['position'].includes(teamName)) {
+            let filename = member['name'].substring(0, member['name'].indexOf(" ")) + member['name'].substring(member['name'].indexOf(" ") + 1, member['name'].indexOf(" ") + 2);
+            $(".content").append("<img class='slide' src='../assets/member-avatars/" + filename + ".jpg'>");
         }
     }
+    showDivs(slideIndex);
 });
-
-let slideIndex = 1;
-showDivs(slideIndex);
 
 function plusDivs(n) {
     slideIndex += n;
@@ -20,7 +21,6 @@ function plusDivs(n) {
 
 function showDivs(n) {
     let slides = $(".slide");
-    console.log(slides);
 
     if (n > slides.length) {
         slideIndex = 1
@@ -29,12 +29,10 @@ function showDivs(n) {
     }
 
     for (let slide of slides) {
-        console.log(slide);
         slide.style.display = "none";
     }
 
-    // slides[slideIndex-1].style.display = "block";
+    slides[slideIndex-1].style.display = "block";
 }
-
 
 

@@ -52,28 +52,6 @@ header {
     transition:0.2s;
 }
 
-#social {
-    display:flex;
-    flex-direction:column;
-    gap:15px 15px;
-    margin-top:2.6vw;
-    margin-bottom:2.6vw;
-    font-size:0px;
-}
-
-.social-link {
-    text-decoration: none;
-}
-
-.social-logo {
-    width: 1.5vw;
-    transition: 0.2s;
-}
-
-.social-logo:hover {
-    transform: scale(1.2);
-}
-
 #navbar {
     margin:auto;
     margin-right:8vw;

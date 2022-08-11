@@ -4,7 +4,7 @@
 - [ ] Add affects to slideshow 
 - [ ] Add pictures to sub-team pages
 - [ ] Update color theme for entire site
-- [ ] Font scaling for website
+- [ ] Font scaling
 - [ ] Add carbon fiber background texture
 
 ### In Progress

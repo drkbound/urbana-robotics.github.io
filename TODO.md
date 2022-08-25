@@ -1,11 +1,24 @@
 # To-Do List
 
-### Todo 
-- [ ] Add affects to slideshow 
+### Todo (no particular order)
+- [ ] Add effects to slideshow 
 - [ ] Add pictures to sub-team pages
 - [ ] Update color theme for entire site
-- [ ] Font scaling for website
+- [ ] Font scaling
 - [ ] Add carbon fiber background texture
+- [ ] Fix Slideshow
+- [ ] Migrate Repo
+- [ ] Add Contact Page (Look on Wix Site)
+    - [ ] Embed google map of our address
+    - [ ] Add form for Newsletter Sub
+        - [ ] First Name*, Last Name*, Email*, Phone
+    - [ ] Contact Info
+        - [ ] Social Media Links
+- [ ] Fix members css
+- [ ] Make site more sustainable and maintainable
+    - [ ] Make fonts and colos schemes easier to edit
+    - [ ] Add templates for repeating html, css, and js
+    - [ ] Add instructions/comments for how to scale website
 
 ### In Progress
 - [ ] Create icons for each sub-team
@@ -24,4 +37,5 @@
 - [x] Create google calendar page for team schedule
 - [x] Create google form page for applying to team
 - [x] Update pages in header
+- [x] Update Newsletters
 

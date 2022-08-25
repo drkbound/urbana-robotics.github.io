@@ -41,7 +41,7 @@
     width: 88vw;
     height: 60vh;
     margin-bottom: 6vw;
-    background: #7A7A7C;
+    background: #404040;
     border-radius: 1vw;
     transition: 0.3s;
 }
@@ -64,7 +64,7 @@
     width: 41vw;
     height: 60vh;
     margin-bottom: 6vw;
-    background: #7A7A7C;
+    background: #404040;
     transition: 0.3s;
     float: left;
     border-radius: 1vw;

@@ -9,16 +9,16 @@
 - [ ] Fix Slideshow
 - [ ] Migrate Repo
 - [ ] Add Contact Page (Look on Wix Site)
-    - [ ] Embed google map of our address
-    - [ ] Add form for Newsletter Sub
-        - [ ] First Name*, Last Name*, Email*, Phone
-    - [ ] Contact Info
-        - [ ] Social Media Links
+    - Embed google map of our address
+    - Add form for Newsletter Sub
+        - First Name*, Last Name*, Email*, Phone
+    - Contact Info
+        - Social Media Links
 - [ ] Fix members css
 - [ ] Make site more sustainable and maintainable
-    - [ ] Make fonts and colos schemes easier to edit
-    - [ ] Add templates for repeating html, css, and js
-    - [ ] Add instructions/comments for how to scale website
+    - Make fonts and colos schemes easier to edit
+    - Add templates for repeating html, css, and js
+    - Add instructions/comments for how to scale website
 
 ### In Progress
 - [ ] Create icons for each sub-team

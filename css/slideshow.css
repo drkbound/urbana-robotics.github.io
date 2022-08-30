@@ -26,12 +26,15 @@
     width: 70vw;
     height: 100%;
     display: flex;
+    flex-direction: column;
+
     justify-content: center;
     align-items: center;
+
 }
 
 .slide {
-    height: 60vh;
+    height: 50vh;
 }
 
 .arrow {
@@ -42,4 +45,9 @@
 
 .arrow:hover {
     opacity: 0.3;
+}
+
+#position {
+    margin-bottom: 0;
+    color: var(--whiteurbana);
 }

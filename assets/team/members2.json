@@ -13,51 +13,47 @@
             "position": "Technical Mentor"
         }, 
         {
-            "name": "Varun Malarvasan", 
-            "position": "Technical President, CTO, Mechanical Lead"
+            "name": "Amogh Kashyap", 
+            "position": "Team Captain"
         }, 
         {
-            "name": "Amogh Kashyap", 
-            "position": "CPO"
+            "name": "Ryan Bennett", 
+            "position": "Mechanical Lead"
+        }, 
+        {
+            "name": "Khang Le", 
+            "position": "Control Lead"
+        }, 
+        {
+            "name": "Abhiraman Senthilkumar", 
+            "position": "Strategy Lead"
+        }, 
+        {
+            "name": "Varun Malarvasan", 
+            "position": "Design Lead"
         }, 
         {
             "name": "Tarun Malarvasan", 
-            "position": "Design Co-Lead"
+            "position": "Design Lead"
         }, 
-        {
-            "name": "Aidan Shranatan", 
-            "position": "Design Co-Lead"
-        }, 
-        {
-            "name": "Deven Patel", 
-            "position": "Non-Technical President, COO, Marketing Lead"
-        },
         {
             "name": "Richard Gu", 
             "position": "Business Lead"
         }, 
         {
-            "name": "Emily Wang", 
-            "position": "Outreach Lead"
-        },
-        {
-            "name": "Nick Valerio", 
-            "position": "Control Co-Lead"
+            "name": "Dhruv Girish", 
+            "position": "Safety Captain"
         }, 
         {
-            "name": "Abhinav Inavolu", 
-            "position": "Control Co-Lead"
+            "name": "Azhan Zafar", 
+            "position": "Mechanical Member"
+        }, 
+        {
+            "name": "Rohil Cheepala", 
+            "position": "Mechanical Member"
         }, 
         {
             "name": "Manas Sharma", 
-            "position": "Mechanical Member"
-        }, 
-        {
-            "name": "Dhruv Girish", 
-            "position": "Mechanical Member"
-        },  
-        {
-            "name": "Rohil Cheepala", 
             "position": "Mechanical Member"
         }, 
         {
@@ -83,7 +79,11 @@
         {
             "name": "Shayon Biswas", 
             "position": "Mechanical Member"
-        },  
+        }, 
+        {
+            "name": "Geethika Kondabathini", 
+            "position": "Mechanical Member"
+        }, 
         {
             "name": "Brandon Tran", 
             "position": "Mechanical Member"
@@ -109,6 +109,10 @@
             "position": "Mechanical Member"
         }, 
         {
+            "name": "Silvi Shah", 
+            "position": "Mechanical Member"
+        }, 
+        {
             "name": "Tyler LaMotte", 
             "position": "Mechanical Member"
         }, 
@@ -118,11 +122,39 @@
         }, 
         {
             "name": "Rayn Taskeen", 
-            "position": "Marketing Member"
+            "position": "Mechanical Member"
+        }, 
+        {
+            "name": "Jonathan Chen", 
+            "position": "Control Member"
+        }, 
+        {
+            "name": "Nick Valerio", 
+            "position": "Control Member"
+        }, 
+        {
+            "name": "Abhinav Inavolu", 
+            "position": "Control Member"
         }, 
         {
             "name": "Alexander Bokelman", 
             "position": "Control Member"
+        }, 
+        {
+            "name": "Emily Wang", 
+            "position": "Control Member"
+        }, 
+        {
+            "name": "Aidan Shranatan", 
+            "position": "Design Member"
+        }, 
+        {
+            "name": "Deven Patel", 
+            "position": "Business Lead"
+        }, 
+        {
+            "name": "Kitty Lin", 
+            "position": "Business Member"
         }
     ],
     "alumni": [

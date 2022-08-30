@@ -43,7 +43,7 @@ fetch('../assets/team/members.json')
             if (member['position'].toLowerCase().includes(pos.toLowerCase())) {
                 subTeamMembers.push(member['position']);
                 let fileName = member['name'].substring(0, member['name'].indexOf(" ")) + member['name'].substring(member['name'].indexOf(" ") + 1, member['name'].indexOf(" ") + 2);
-                $(".content").append("<img class='slide' src='../assets/member-avatars/" + fileName + ".jpg'>");
+                $(".content").append("<img class='slide' src='../assets/member-avatars/" + fileName.toLowerCase() + ".jpg'>");
             }
         }
     }

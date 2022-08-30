@@ -6,9 +6,9 @@ function scrollFunction() {
     document.getElementById('team-logo').style.margin = '1vw 0vw 1vw 1vw';
     document.getElementById('team-name').style.fontSize = '2vw';
     document.getElementById('team-name').style.marginTop = '0px';
-    document.getElementById('team-number').style.fontSize = '0vw';
-    for (var i = 0; i < document.getElementsByClassName('social-logo').length; i++) {
-      document.getElementsByClassName('social-logo')[i].style.width = '0vw'
+    document.getElementById('team-number').style.fontSize = '2vw';
+    for (let logo of document.getElementsByClassName('social-logo')) {
+        logo.style.width = '0vw';
     }
   }
   else {
@@ -17,8 +17,8 @@ function scrollFunction() {
     document.getElementById('team-name').style.fontSize = '3vw';
     document.getElementById('team-name').style.marginTop = '20px';
     document.getElementById('team-number').style.fontSize = '2vw';
-    for (var i = 0; i < document.getElementsByClassName('social-logo').length; i++) {
-      document.getElementsByClassName('social-logo')[i].style.width = '1.5vw';
+    for (let logo of document.getElementsByClassName('social-logo')) {
+        logo.style.width = '1.5vw';
     }
   }
 }

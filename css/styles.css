@@ -1,36 +1,42 @@
 :root {
     /*Navbar Colors*/
-    --navbarcolor:#222222;
-    --navbaractive:#444444;
+    /* --navbarcolor:#222222; */
+    --navbarcolor:#04003B;
+    /* --navbaractive:#444444; */
+    --navbaractive:#04003B;
     --navbartext:#EEEEEE;
     /* --mainbackground:#404040; */
     --mainbackground:#282828;
 
     --navyurbana:#04003B;
-    --greyurbana:#7A7A7C;
+    /* --greyurbana:#7A7A7C; */
+    /* --greyurbana:#b7b7b7; */
+    --greyurbana: #666666;
     --whiteurbana:#FFFFFF;
     --navybackground:#193669;
     --navyhover:#1f196e;
     --navyactive:#2d559c;
+    --ublue: #0b3562;
+    
 }
 
 @font-face {
-    font-family:Lato;
-    src:url('../assets/fonts/lato.ttf');
+    font-family: Bebas Neue;
+    src:url("../assets/fonts/bebasneue.ttf");
 }
 
 @font-face {
-    font-family:Neuterous;
-    src:url('../assets/fonts/neuterous.ttf');
+    font-family: Norwester;
+    src:url("../assets/fonts/norwester.ttf");
 }
 
 @font-face {
-    font-family:Joy Multiplication;
-    src:url('../assets/fonts/joymultiplication.ttf');
+    font-family: Dosis;
+    src:url("../assets/fonts/dosis.ttf");
 }
 
 body {
-    font-family:Lato;
+    font-family:Bebas Neue;
     margin:0px;
 }
 
@@ -43,13 +49,13 @@ main {
 }
 
 #title {
-    font-family:Joy Multiplication;
-    color:white;
-    text-align:center;
-    font-size:4vw;
+    font-family: Bebas Neue;
+    color: white;
+    text-align: center;
+    font-size: calc(10px + 2vmax);
     margin:0px;
-    padding-top:4vw;
-    padding-bottom:4vw;
+    padding-top:4vmax;
+    padding-bottom:4vmax;
 }
 
 .center {
@@ -58,14 +64,14 @@ main {
     align-items:center;
 }
 
-.parallax {
+.background-gif {
     display:flex;
     justify-content:center;
     align-items:center;
-    background-image: url("../assets/global/background.gif");
+    background-image: url("../assets/global/background4.gif");
     min-height: 40vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }

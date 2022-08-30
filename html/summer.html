@@ -1,57 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../css/styles.css">
-        <link rel="stylesheet" href="../css/header.css">
-        <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/summer.css">
-        <link rel="icon" href="../assets/global/favicon.png">
 
         <title>CryptoHawks</title>
     </head>
     <body>
-        <header>
-            <a id="home-link" href="../index.html">
-                <div id="team-group">
-                    <img id="team-logo" src="../assets/global/logo.png">
-                    <div id="team-title">
-                        <h1 id="team-name"><b>CryptoHawks</b></h1>
-                        <p id="team-number">FRC Team 8726</p>
-                    </div>
-                </div>
-            </a>
-            <div id="social">
-                <a class="social-link" href="mailto:urbanahsrobotics@gmail.com" target="_blank"><img class="social-logo" src="../assets/socials/email.png"></a>
-                <a class="social-link" href="https://www.instagram.com/uhsrobotics" target="_blank"><img class="social-logo" src="../assets/socials/instagram.png"></a>
-                <a class="social-link" href="https://www.youtube.com/channel/UCzbWX9d-P6BXmRLVnBRsI0w" target="_blank"><img class="social-logo" src="../assets/socials/youtube.png"></a>
-            </div>
-            <div id="navbar">
-                <ul id="navbar-container">
-                    <li class="navbar-item"><a class="navbar-link" href="../index.html"><b>Home</b></a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="team.html"><b>Team</b></a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="robots.html"><b>Robots</b></a></li>
-                    <li class="navbar-item"><a id="active-page" class="navbar-link" href="summer.html"><b>Summer Camp</b></a></li>
-                    <li class="navbar-item"><a class="navbar-link" href="sponsors.html"><b>Sponsors</b></a></li>
-                    <li class="navbar-item">
-                        <div id="dropdown">
-                            <p id="dropdown-text"><b>More</b></p>
-                            <div id="dropdown-content">
-                                <a class="navbar-link" href="contact.html"><b>Contact</b></a>
-                                <a class="navbar-link" href="media.html"><b>Media</b></a>
-                                <a class="navbar-link" href="newsletters.html"><b>Newsletter</b></a>
-                                <!-- <a class="navbar-link" href="events.html"><b>Events</b></a> -->
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </header>
+        <div id="header"></div>
         <main>
             <h1 id="title">Summer Camp</h1>
             <h2 id="closed">Signups for the summer camps are now closed</h2>
             <p id="summercamp-introduction">There are two separate summer camps being offered this year by Urbana
-                High School’s Robotics Team, the CryptoHawks. Students will have the opportunity 
+                High School's Robotics Team, the CryptoHawks. Students will have the opportunity 
                 to enhance their STEM related skills by building robots to compete. 
                 They will be working with student members from the robotics team</p>
                 <div id="summercamp-layout">
@@ -59,7 +21,7 @@
                         <div class="summercamp">
                             <h1 class="summercamp-title">Arduino</h1>
                             <div class="summercamp-image-container">
-                                <img class="summercamp-image" src="../assets/summer/arduino.png">
+                                <img class="summercamp-image" alt="Arduino" src="../assets/summer/arduino.png">
                             </div>
                             <p class="summercamp-description">Students will be 
                                 using the microcontroller Arduino to 
@@ -75,7 +37,7 @@
                         <div class="summercamp">
                             <h1 class="summercamp-title">Lego Mindstorm</h1>
                             <div class="summercamp-image-container">
-                                <img class="summercamp-image" src="../assets/summer/mindstorm.png">
+                                <img class="summercamp-image" alt="Mindstorm" src="../assets/summer/mindstorm.png">
                             </div>
                             <p class="summercamp-description"> Students will be using 
                                 LEGO Mindstorms to learn the basics 
@@ -87,18 +49,14 @@
                                 4-6. Cost is $150 per student.</p>
                         </div>
                     </div>
-                    <!-- <div id="summercamp-signup">
-                        <iframe id="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLScEd0B7hRQkPYQsnM79hBmk_9mWBxYhecMUH9XwiEvXlPeo8Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                    </div> -->
                 </div>
         </main>
-        <footer>
-            <p id="copyright"><b>&copy; 2022 | Designed by Khang Le</b></p>
-            <a href="https://www.firstinspires.org" target="_blank"><img id="frc-logo" src="../assets/global/frc.png"></a>
-        </footer>
+        <div id="footer"></div>
         <script src="../js/jquery-3.6.0.min.js"></script>
         <script src="../js/scripts.js"></script>
-        <!-- <script src="../js/header.js"></script> -->
-        <script src="../js/headerscroll.js"></script>
+        <script>
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+        </script> 
     </body>
 </html>

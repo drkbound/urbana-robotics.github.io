@@ -1,0 +1,74 @@
+.mentors {
+    width: 100%;
+    height: 80vh; 
+    align-items: center;
+    display: flex;
+}
+
+.mentors:nth-child(odd) {
+    background: #181818;
+}
+
+.images-div {
+    width: 50vw;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.images-div:nth-child(even) {
+    justify-content: left;
+}
+
+.images-div:nth-child(odd) {
+    justify-content: right;
+}
+
+.images {
+    box-shadow: 2vw 2vw rgb(255, 255, 255);
+}
+
+.images-div:nth-child(even) .images{
+    margin-left: 10%;
+}
+
+.images-div:nth-child(odd) .images{
+    margin-right: 10%;
+}
+
+.description-div {
+    width: 50vw;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.description-div:nth-child(odd) * {
+    align-items: end;
+    text-align: end;
+    padding-right: 5vw;
+}
+
+.description-div:nth-child(odd) .description {
+    margin-left: auto; 
+}
+
+.description-div:nth-child(even) * {
+    padding-left: 5vw;
+}
+
+.description {
+    max-width: 25vw;
+    font-family: Dosis;
+    font-weight: 500;
+}
+
+.name {
+    font-family: Bebas Neue;
+}
+
+.position {
+    font-family: Dosis;
+}

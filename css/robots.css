@@ -16,6 +16,7 @@
     height:38vw;
     width:38vw;
     object-fit:cover;
+    border-radius: 10px;
 }
 
 .robot-link {
@@ -36,31 +37,27 @@
 }
 
 .robot-name {
-    font-family:Joy Multiplication;
+    font-family: Bebas Neue;
     font-size:2.5vw;
     color:white;
     margin-bottom:0px;
 }
 
 .robot-year {
-    font-family:Joy Multiplication;
+    font-family: Bebas Neue;
     font-size:1.5vw;
     color:white;
     margin-top:0px;
 }
 
 .robot-description {
-    font-family:Lato;
+    font-family: Dosis;
     font-size:1.2vw;
     color:white;
 }
 
-.robot-performance {
-    
-}
-
 .robot-performance h1{
-    font-family:Joy Multiplication;
+    font-family: Dosis;
     font-size:1.8vw;
     color:white;
 }
@@ -94,7 +91,6 @@
     flex-direction:row-reverse;
     text-align:right;
 }
-
 
 .banner {
     background: #0f4bcb;

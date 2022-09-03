@@ -10,6 +10,7 @@
     opacity: 0;
     font-family: Dosis;
     font-size: 100%;
+    transition: 0.3s;
 }
 
 .icons {
@@ -55,7 +56,6 @@
 
 #mentors:hover .description {
     opacity: 1;
-    transition: 0.3s;
 }
 
 #mentors:hover {
@@ -89,7 +89,6 @@ img {
 
 .sub-team-div:hover .description {
     opacity: 1;
-    transition: 0.3s;
 }
 
 .subteam-name {

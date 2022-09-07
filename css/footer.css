@@ -2,7 +2,7 @@ footer {
     margin:0px;
     text-align:center;
     background-color:black;
-    color:var(--navbartext);
+    color:var(--white);
     bottom:0px;
     border-top:3px white solid;
 }

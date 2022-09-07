@@ -1,29 +1,37 @@
 # To-Do List
 
-### Todo (no particular order)
-- [ ] Add effects to slideshow 
-- [ ] Add pictures to sub-team pages
-- [ ] Update color theme for entire site
-- [ ] Font scaling
-- [ ] Add carbon fiber background texture
-- [ ] Fix Slideshow
-- [ ] Migrate Repo
-- [ ] Add Contact Page (Look on Wix Site)
-    - Embed google map of our address
-    - Add form for Newsletter Sub
-        - First Name*, Last Name*, Email*, Phone
-    - Contact Info
-        - Social Media Links
-- [ ] Fix members css
+### Todo (Kinda Ordered by Priority)
 - [ ] Make site more sustainable and maintainable
     - Make fonts and colos schemes easier to edit
     - Add templates for repeating html, css, and js
     - Add instructions/comments for how to scale website
+- [ ] Add Contact Page (Look on Wix Site)
+    - Embed google map of our address
+    - Make form for Newsletter Subscription
+        - First Name*, Last Name*, Email*, Phone
+    - Contact Info
+        - Social Media Links
+- [ ] Add pictures to sub-team pages
+- [ ] Improve Sponsors page
+- [ ] Add effects to slideshow 
+- [ ] Go through every single file thoroughly and clean it up (especially css files)
+- [ ] Font scaling
+- [ ] Update color theme for entire site
+- [ ] Add carbon fiber background texture
 
 ### In Progress
-- [ ] Create icons for each sub-team
+- [ ] Transition all png's to svg's when possible
+- [ ] Fix Mentor Descriptions
+- [ ] Fix font sizes on "Our Robots" page
+
+### Done but not Live
+- [x] Transfer interest form to urbanahsrobotics account
 
 ### Done
+- [x] Migrate Repo
+- [x] Fix error with image file names
+- [x] Fix slideshow images not loading
+- [x] Create icons for each sub-team
 - [x] Change background gif for home page
 - [x] Update navbar animations
 - [x] Create template file for header
@@ -38,4 +46,8 @@
 - [x] Create google form page for applying to team
 - [x] Update pages in header
 - [x] Update Newsletters
-
+- [x] Add image of Phalgun (schoology pic for now)
+- [x] Add names to slideshow of students
+- [x] Add Urbana Ortho to sponsors
+- [x] Fix Team.css and Team.html so it is human understandable
+- [x] Standardize Color Scheme

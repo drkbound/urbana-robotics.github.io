@@ -41,13 +41,14 @@ fetch('../assets/team/members.json')
     for (let member of members) {
         for (let pos of positions) {
             if (member['position'].toLowerCase().includes(pos.toLowerCase())) {
-                subTeamMembers.push(member['position']);
+                subTeamMembers.push(member);
                 let fileName = member['name'].substring(0, member['name'].indexOf(" ")) + member['name'].substring(member['name'].indexOf(" ") + 1, member['name'].indexOf(" ") + 2);
                 $(".content").append("<img class='slide' src='../assets/member-avatars/" + fileName.toLowerCase() + ".jpg'>");
             }
         }
     }
 
+    $(".content").append("<h1 id='name'></h1>");
     $(".content").append("<h1 id='position'></h1>");
     
     showDivs(slideIndex);
@@ -71,7 +72,8 @@ function showDivs(n) {
         slide.style.display = "none";
     }
 
-    $("#position").text(subTeamMembers[slideIndex - 1]);
+    $("#name").text(subTeamMembers[slideIndex - 1]["name"]);
+    $("#position").text(subTeamMembers[slideIndex - 1]["position"]);
     slides[slideIndex-1].style.display = "block";
 }
 

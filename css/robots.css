@@ -24,7 +24,7 @@
 }
 
 .robot-link:hover {
-    background-color:#505050;
+    background-color:var(--lightgray);
 }
 
 .robot-label {
@@ -93,7 +93,7 @@
 }
 
 .banner {
-    background: #0f4bcb;
+    background: var(--bannerblue);
     color: white;
     display: inline-block;
     height: 170px;
@@ -111,7 +111,7 @@
     content: '';
     position: absolute;
     display: block;
-    border: 70px solid #0f4bcb;
+    border: 70px solid var(--bannerblue);
     border-top-width: 5px;
     border-bottom: 20px transparent solid;
     top: 100%;

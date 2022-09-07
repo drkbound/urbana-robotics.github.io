@@ -6,7 +6,7 @@
 }
 
 .mentors:nth-child(odd) {
-    background: #181818;
+    background: var(--mentorsaltcolor);
 }
 
 .images-div {

@@ -1,23 +1,15 @@
 :root {
-    /*Navbar Colors*/
-    /* --navbarcolor:#222222; */
-    --navbarcolor:#04003B;
-    /* --navbaractive:#444444; */
-    --navbaractive:#04003B;
-    --navbartext:#EEEEEE;
-    /* --mainbackground:#404040; */
-    --mainbackground:#282828;
-
-    --navyurbana:#04003B;
-    /* --greyurbana:#7A7A7C; */
-    /* --greyurbana:#b7b7b7; */
-    --greyurbana: #666666;
-    --whiteurbana:#FFFFFF;
-    --navybackground:#193669;
+    --navy:#04003B;
+    --white:#FFFFFF;
     --navyhover:#1f196e;
     --navyactive:#2d559c;
-    --ublue: #0b3562;
-    
+    --mainbackground:#282828;
+    --lightgray: #505050;
+    --lightgray1: #7c878c;
+    --lightgray2: #9f9f9f;
+    --darkgray: #404040;
+    --mentorsaltcolor: #181818;
+    --bannerblue: #0f4bcb;
 }
 
 @font-face {

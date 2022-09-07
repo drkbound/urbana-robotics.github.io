@@ -15,7 +15,7 @@
     display:flex;
     justify-content:center;
     gap:0vw 2.5vw;
-    background-color:#404040;
+    background-color:var(--darkgray);
     width:auto;
     padding:2vw;
     border-radius: 10px;
@@ -23,14 +23,14 @@
 }
 
 .newsletter:hover {
-    background-color:#505050;
+    background-color:var(--lightgray);
     transform: scale(1.1);
 }
 
 .newsletter-title {
     font-family: Bebas Neue;
     font-size:3vw;
-    color:var(--whiteurbana);
+    color:var(--white);
     margin:0px;
     padding:0px;
 }
@@ -38,14 +38,14 @@
 .newsletter-date {
     font-family: Dosis;
     font-size:1vw;
-    color:var(--whiteurbana);
+    color:var(--white);
     margin:0px;
     padding:0px;
 }
 
 .newsletter-description {
     font-size:1.2vw;
-    color:var(--whiteurbana);
+    color:var(--white);
     margin-top:2vw;
 }
 

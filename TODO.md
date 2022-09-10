@@ -26,6 +26,8 @@
 
 ### Done but not Live
 - [x] Transfer interest form to urbanahsrobotics account
+- [x] Fix newsletter dates
+- [x] Fix mentor descriptions
 
 ### Done
 - [x] Migrate Repo
@@ -46,7 +48,7 @@
 - [x] Create google form page for applying to team
 - [x] Update pages in header
 - [x] Update Newsletters
-- [x] Add image of Phalgun (schoology pic for now)
+- [x] Add image for Phalgun (default pic for now)
 - [x] Add names to slideshow of students
 - [x] Add Urbana Ortho to sponsors
 - [x] Fix Team.css and Team.html so it is human understandable

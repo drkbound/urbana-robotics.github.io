@@ -27,6 +27,10 @@
     src:url("../assets/fonts/dosis.ttf");
 }
 
+header {
+    max-height: 15vh; /* Max height of Header (Header Itself)*/
+}
+
 body {
     font-family:Bebas Neue;
     margin:0px;
@@ -34,8 +38,8 @@ body {
 
 main {
     background-color:var(--mainbackground);
-    min-height:25vw;
-    padding-top:12vw;
+    min-height:25vw; /* Max height of Header (Background)*/
+    padding-top:15vh;
     padding-bottom:6vw;
     width:100%;
 }

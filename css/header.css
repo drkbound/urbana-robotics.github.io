@@ -23,10 +23,10 @@ header {
 }
 
 #team-logo {
-    margin:2vw;
+    margin:2vh;
     margin-left:0px;
     margin-right:0px;
-    max-height:8vw;
+    max-height: 11vh;
     transition:0.2s;
 }
 

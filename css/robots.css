@@ -78,13 +78,9 @@
     color:white;
 }
 
-.robot-events-headings {
-    font-size:1.2vw;
-}
-
 .robot-event td{
     padding:0.8vw 2vw 0.8vw 0vw;
-    font-size:0.8vw;
+    font-size: 1.0vw;
 }
 
 .reverse {

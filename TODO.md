@@ -5,12 +5,6 @@
     - Make fonts and colos schemes easier to edit
     - Add templates for repeating html, css, and js
     - Add instructions/comments for how to scale website
-- [ ] Add Contact Page (Look on Wix Site)
-    - Embed google map of our address
-    - Make form for Newsletter Subscription
-        - First Name*, Last Name*, Email*, Phone
-    - Contact Info
-        - Social Media Links
 - [ ] Add pictures to sub-team pages
 - [ ] Improve Sponsors page
 - [ ] Add effects to slideshow 
@@ -21,13 +15,22 @@
 
 ### In Progress
 - [ ] Transition all png's to svg's when possible
-- [ ] Fix Mentor Descriptions
-- [ ] Fix font sizes on "Our Robots" page
+- [ ] Add animations to make page looker sleeker and more modern
+- [ ] Add Contact Page (Look on Wix Site)
+    - Embed google map of our address
+    - Make form for Newsletter Subscription
+        - First Name*, Last Name*, Email*, Phone
+    - Contact Info
+        - Social Media Links
 
 ### Done but not Live
 - [x] Transfer interest form to urbanahsrobotics account
+- [x] Add sponsors
 - [x] Fix newsletter dates
 - [x] Fix mentor descriptions
+- [x] Adjust Header Dimensions
+- [x] Fix Mentor Descriptions
+- [x] Fix font sizes on "Our Robots" page
 
 ### Done
 - [x] Migrate Repo

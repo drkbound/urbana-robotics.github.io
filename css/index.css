@@ -44,3 +44,7 @@
     color:var(--white);
     margin:0px;
 }
+
+#introduction-description:nth-child(2){
+    transition-delay: 200ms;
+}

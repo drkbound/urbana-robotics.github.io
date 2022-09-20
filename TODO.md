@@ -15,6 +15,7 @@
 
 ### In Progress
 - [ ] Transition all png's to svg's when possible
+- [ ] Add animations to make page looker sleeker and more modern
 - [ ] Add Contact Page (Look on Wix Site)
     - Embed google map of our address
     - Make form for Newsletter Subscription

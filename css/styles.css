@@ -14,17 +14,17 @@
 
 @font-face {
     font-family: Bebas Neue;
-    src:url("../assets/fonts/bebasneue.ttf");
+    src:url("/assets/fonts/bebasneue.ttf");
 }
 
 @font-face {
     font-family: Norwester;
-    src:url("../assets/fonts/norwester.ttf");
+    src:url("/assets/fonts/norwester.ttf");
 }
 
 @font-face {
     font-family: Dosis;
-    src:url("../assets/fonts/dosis.ttf");
+    src:url("/assets/fonts/dosis.ttf");
 }
 
 header {

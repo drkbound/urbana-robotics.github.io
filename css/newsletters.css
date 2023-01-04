@@ -20,7 +20,9 @@
     padding:2vw;
     border-radius: 10px;
     transition: 0.3s;
+    height: 50vh;
 }
+
 
 .newsletter:hover {
     background-color:var(--lightgray);
@@ -43,11 +45,12 @@
     padding:0px;
 }
 
-.newsletter-description {
+.newsletter-description-text {
     font-size:1.2vw;
     color:var(--white);
     margin-top:2vw;
 }
+
 
 .newsletter-cover-image {
     flex:2;
@@ -55,6 +58,19 @@
     max-height:25vw;
     object-fit:cover;
     border-radius: 10px;
+}
+
+.newsletter-description{
+    height:42vh;
+}
+
+/* .newsletter-author{
+    height:30vh;
+} */
+
+.newsletter-author-description {
+    font-size:1.5vw;
+    color:var(--white);
 }
 
 sup {
